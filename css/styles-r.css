@@ -1,0 +1,175 @@
+@import url('https://fonts.googleapis.com/css?family=Muli&display=swap');
+body{
+    font-family: 'Muli', sans-serif;
+    color: white;
+    background-image:linear-gradient(to right top, rgb(0, 0, 0) , rgb(62, 65, 65)90%);
+    background-attachment: fixed;
+}
+.flex-container{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+    flex-wrap: wrap;
+}
+.flex-item{
+    width: 10%;
+    margin: 10px auto;
+}
+.flex-item:nth-child(1) {
+    width: 100%;
+    font-size: 1.2em;
+    color: rgb(109, 108, 108);
+  }
+  .btn{
+      background-color: rgba(128, 128, 128, 0.103);
+      border: none;
+      color: white;
+      font-family: 'Muli', sans-serif;
+      font-size: 1em;
+      padding: 0.5em 1em;
+      box-sizing: border-box;
+      border-radius: 15px;
+  }
+  .btn-2{
+      background-color: white;
+      border: none;
+      color: rgb(48, 51, 51);
+      font-family: 'Muli', sans-serif;
+      font-size: 1.1em;
+      padding: 0.8em 1.8em;
+      box-sizing: border-box;
+      border-radius: 25px;
+  }
+  .flex-item:nth-child(7) {
+    width: 17%;
+  }
+.flex-body{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+    margin: 0 auto;
+    padding: 2em 1em;
+    flex-direction: column;
+}
+.body h2{
+    font-size: 2em;
+    text-align: left;
+    margin: 0 75px; 
+}
+.body p{
+    font-size: 1em;
+    text-align: left;
+    margin: 0 75px;
+    line-height: 2em;
+}
+.Try-btn{
+    color: white;
+    font-size: 16px;
+    margin: 20px;
+    padding: 1em 2em;
+    box-sizing: border-box;
+    border-radius: 25px;
+    background-image:linear-gradient(to right top, rgb(48, 51, 51), rgb(0, 0, 0)90%);
+    border: none;
+    box-shadow: 0 10px 30px rgba(88, 84, 84, 0.678);
+}
+
+img{
+    height: 200px;
+    width: 250px;
+}
+@media screen and (min-width: 0px) and (max-width: 749px){
+    .flex-item{
+        width: 8%;
+        margin: 8px auto;
+    }
+    .flex-item:nth-child(1) {
+        width: 100%;
+        font-size: 1.5em;
+        line-height: 1em;
+        color: rgb(109, 108, 108);
+      }
+      .btn{
+          background-color: rgba(128, 128, 128, 0.103);
+          border: none;
+          color: white;
+          font-family: 'Muli', sans-serif;
+          font-size: 0.8em;
+          padding: 0.5em 1em;
+          box-sizing: border-box;
+          border-radius: 15px;
+      }
+      .btn-2{
+          background-color: white;
+          border: none;
+          color: rgb(48, 51, 51);
+          font-family: 'Muli', sans-serif;
+          font-size: 0.9em;
+          padding: 0.7em 1.3em;
+          box-sizing: border-box;
+          border-radius: 25px;
+      }
+      .flex-item:nth-child(7) {
+        width: 20%;
+      }
+    .body h2{
+        font-size: 1.8em;
+        text-align: left;
+        margin: 0 75px; 
+        margin-bottom: 10px;
+    }
+    .body p{
+        font-size: 1em;
+        text-align: left;
+        margin: 0 75px;
+        line-height: 2em;
+    }
+    .Try-btn{
+        color: white;
+        font-size: 14px;
+        margin: 20px;
+        padding: 1em 2em;
+        box-sizing: border-box;
+        border-radius: 25px;
+        background-image:linear-gradient(to right top, rgb(48, 51, 51), rgb(0, 0, 0)90%);
+        border: none;
+        box-shadow: 0 10px 30px rgba(88, 84, 84, 0.678);
+    }
+    .body,.chart{
+        width: 100%;
+    }
+    
+}
+@media screen and (min-width: 750px){
+    .flex-item:nth-child(1) {
+        width: 20%;
+        font-size: 1.2em;
+        color: rgb(109, 108, 108);
+    }
+    .btn-2{
+        background-color: white;
+        border: none;
+        color: rgb(48, 51, 51);
+        font-family: 'Muli', sans-serif;
+        font-size: 1.1em;
+        padding: 0.5em 1.2em;
+        box-sizing: border-box;
+        border-radius: 25px;
+    }
+
+    .flex-body{
+        flex-direction: row;
+        
+    }
+    .chart,.body{
+        width: 50%;
+    }
+    img{
+        height: 300px;
+        width:400px;
+    }
+}
